@@ -40,7 +40,7 @@ Most people approaching agent security come from an ML background and treat it a
 | **FireEye** | Malware Researcher, Singapore | Apr 2019 – Feb 2022 |
 | **Ebryx** | Malware Researcher | Jul 2017 – Apr 2019 |
 
-At FireEye I hunted evasions bypassing the IDS, did root-cause analysis on live detections, and built MITRE ATT&CK mapping into the product UI. At Ensign I reverse-engineered C++ internals — reconstructing object hierarchies, debugging Windows kernel drivers and minifilters — to find where the underlying assumptions broke.
+At FireEye I hunted evasions bypassing the IDS, did root-cause analysis on live detections, and built MITRE ATT&CK mapping into the product UI. At Ensign I reverse-engineered C++ internals — reconstructing object hierarchies, debugging Windows kernel drivers and minifilters — to find where the mistakes and vulnerabilities were.
 
 ## Writing
 
