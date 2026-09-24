@@ -1,0 +1,19 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+// Smaller base type size, and a flatter responsive scale-up
+// (theme default goes 16px -> 18px -> 20px -> 22px across breakpoints,
+// which reads as oversized on a wide desktop screen).
+$doc-font-size: 15px !default;
+$doc-font-size-medium: $doc-font-size * 1.0625 !default;
+$doc-font-size-large: $doc-font-size * 1.125 !default;
+$doc-font-size-x-large: $doc-font-size * 1.1875 !default;
+
+// Crimson accent instead of the dark skin's default teal
+$primary-color: #c1121f !default;
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
