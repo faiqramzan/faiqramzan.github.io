@@ -40,7 +40,7 @@ Most people approaching agent security come from an ML background and treat it a
 | **FireEye** | Malware Researcher, Singapore | Apr 2019 – Feb 2022 |
 | **Ebryx** | Malware Researcher | Jul 2017 – Apr 2019 |
 
-At FireEye I hunted evasions bypassing the IDS, did root-cause analysis on live detections, and built MITRE ATT&CK mapping into the product UI. At Ensign I reverse-engineered a security product's C++ internals — reconstructing object hierarchies, debugging Windows kernel drivers and minifilters — to find where its own assumptions broke.
+At FireEye I hunted evasions bypassing the IDS, did root-cause analysis on live detections, and built MITRE ATT&CK mapping into the product UI. At Ensign I reverse-engineered C++ internals — reconstructing object hierarchies, debugging Windows kernel drivers and minifilters — to find where the underlying assumptions broke.
 
 ## Writing
 
@@ -49,7 +49,7 @@ At FireEye I hunted evasions bypassing the IDS, did root-cause analysis on live 
 
 ## Elsewhere
 
-I play more guitar than is useful for someone with a full-time job — mostly Led Zeppelin and Pantera, badly, occasionally [recorded](https://www.youtube.com/@faiqramzan5410).
+I play more guitar than is useful for someone with a full-time job — mostly Led Zeppelin and Pantera, badly, occasionally [recorded](https://instagram.com/faiqnoodles).
 
 ---
 
