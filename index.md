@@ -16,7 +16,7 @@ I direct offensive security teams at [Ebryx](https://www.ebryx.com) in Lahore �
 ## What I work on
 
 **Agentic AI & LLM security**
-Runtime guardrails for agent infrastructure — tool-use boundaries, agent-to-agent trust, memory isolation, privilege control. Threat modeling and red-team assessment of multi-agent systems. *Team of [PENDING].*
+Runtime guardrails for agent infrastructure — tool-use boundaries, agent-to-agent trust, memory isolation, privilege control. Threat modeling and red-team assessment of multi-agent systems.
 
 **Linux kernel research**
 Exploit primitive development and CVE adaptation across kernel versions, for a client building a security product. *Team of 7.*
