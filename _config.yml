@@ -23,11 +23,11 @@ author:
   avatar: "/assets/images/faiq-ramzan.jpg"
   bio: "Director Engineering at Ebryx. Agentic AI security, Linux kernel research, red team tooling, vulnerability research, reverse engineering."
   location: "Lahore, Pakistan"
-  email: "faiqramzan14@gmail.com"
+  email: "faiq@faiqramzan.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:faiqramzan14@gmail.com"
+      url: "mailto:faiq@faiqramzan.com"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/faiq-ramzan/"

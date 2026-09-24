@@ -49,8 +49,8 @@ At FireEye I hunted evasions bypassing the IDS, did root-cause analysis on live 
 
 ## Elsewhere
 
-I play more guitar than is useful for someone with a full-time job — mostly Led Zeppelin and Pantera, badly, occasionally [recorded](https://instagram.com/faiqnoodles).
+I play more guitar than is useful for someone with a full-time job — mostly Led Zeppelin and Pantera, occasionally [recorded](https://instagram.com/faiqnoodles).
 
 ---
 
-[Email](mailto:faiqramzan14@gmail.com) · [LinkedIn](https://www.linkedin.com/in/faiq-ramzan/) · [GitHub](https://github.com/faiqramzan) · [YouTube](https://www.youtube.com/@faiqramzan5410)
+[Email](mailto:faiq@faiqramzan.com) · [LinkedIn](https://www.linkedin.com/in/faiq-ramzan/) · [GitHub](https://github.com/faiqramzan) · [YouTube](https://www.youtube.com/@faiqramzan5410)
