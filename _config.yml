@@ -4,7 +4,6 @@ minimal_mistakes_skin: "dark"
 locale: "en-US"
 title: "Faiq Ramzan"
 title_separator: "|"
-subtitle: "Offensive security leader. Kernel exploit development, C2 development, agentic AI security."
 name: "Faiq Ramzan"
 description: >-
   Faiq Ramzan is a Director Engineering at Ebryx in Lahore, leading teams in
@@ -14,7 +13,6 @@ url: "https://faiqramzan.com"
 baseurl: ""
 repository: "faiqramzan/faiqramzan.github.io"
 teaser: "/assets/images/faiq-ramzan.jpg"
-logo: "/assets/images/faiq-ramzan.jpg"
 masthead_title: "Faiq Ramzan"
 words_per_minute: 200
 
