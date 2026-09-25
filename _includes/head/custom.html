@@ -11,7 +11,7 @@
   "name": "Faiq Ramzan",
   "url": "{{ site.url }}/",
   "image": "{{ site.url }}/assets/images/faiq-ramzan.jpg",
-  "jobTitle": "Director Engineering",
+  "jobTitle": "Director of Engineering",
   "description": "Offensive security leader. Kernel exploit development, C2 development, agentic AI security.",
   "worksFor": {
     "@type": "Organization",
@@ -40,8 +40,25 @@
   "sameAs": [
     "https://www.linkedin.com/in/faiq-ramzan/",
     "https://github.com/faiqramzan",
-    "https://www.youtube.com/@faiqramzan5410",
     "https://instagram.com/faiqnoodles"
   ]
 }
 </script>
+{% if page.collection == "posts" %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": {{ page.title | jsonify }},
+  "description": {{ page.description | default: page.excerpt | strip_html | strip_newlines | jsonify }},
+  "url": "{{ page.url | absolute_url }}",
+  "mainEntityOfPage": "{{ page.url | absolute_url }}",
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}",
+  "image": "{{ page.header.og_image | default: site.og_image | absolute_url }}",
+  "keywords": {{ page.tags | jsonify }},
+  "author": { "@id": "{{ site.url }}/#person" },
+  "publisher": { "@id": "{{ site.url }}/#person" }
+}
+</script>
+{% endif %}

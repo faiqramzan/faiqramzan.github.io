@@ -1,0 +1,19 @@
+# Faiq Ramzan
+
+> Faiq Ramzan is Director of Engineering at Ebryx in Lahore, Pakistan. He leads offensive security teams working on agentic AI and LLM security, Linux kernel research, red team tooling (including C2 development), vulnerability research and malware research. His background is nine years of malware reverse engineering and vulnerability research, including at FireEye (now Trellix).
+
+His core argument: agent security is an exploitation problem. Privilege boundaries, trust across untrusted inputs, memory isolation and sandbox escape are old exploitation problems in a new runtime.
+
+## About
+
+- [About Faiq Ramzan](https://faiqramzan.com/): role, teams, work history and contact
+
+## Writing
+
+- [Curious Case of a Dotnet Binary](https://faiqramzan.com/curious-dotnet-malware/): unpacking a four-stage sample (Eazfuscator and ConfuserEx .NET loaders, C++ keylogger payload), with indicators
+- [Curious Case of an Under-dev Malware](https://faiqramzan.com/curious-dotnet-malware-part2/): a later build of the same sample, also shipping without a C2 configuration
+
+## Profiles
+
+- [LinkedIn](https://www.linkedin.com/in/faiq-ramzan/)
+- [GitHub](https://github.com/faiqramzan)

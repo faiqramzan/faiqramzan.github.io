@@ -3,6 +3,4 @@ _site/
 .sass-cache/
 .jekyll-metadata
 Gemfile.lock
-.cissp-staged.md
 .DS_Store
-.claude/

@@ -17,3 +17,44 @@ $primary-color: #c1121f !default;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+// The theme sets these at 0.625–0.75em, which lands at ~11–12px on the 15px base.
+.sidebar .author__bio,
+.sidebar .author__bio p,
+.sidebar .author__urls,
+.sidebar .author__urls li,
+.page__content table,
+.page__footer-follow li,
+.page__footer-copyright {
+  font-size: 0.9333rem;
+}
+
+// Code blocks default to 0.75em (~11px); keep them at 13px or more.
+.page__content div.highlighter-rouge,
+.page__content figure.highlight,
+.page__content pre,
+.page__content code {
+  font-size: 0.8667rem;
+}
+
+.page__content figure img {
+  height: auto;
+}
+
+// The theme fades the disabled "Previous" link below readable contrast.
+.pagination--pager.disabled {
+  color: #9aa0a8;
+  opacity: 1;
+}
+
+// TOC title is an h2 (for heading order) but should look like the theme's small label.
+.page__content .toc h2.nav__title {
+  margin: 0;
+  padding-bottom: 0.5rem;
+  border-bottom: 0;
+}
+
+// The homepage body already opens with an H1 of the name.
+.home-page .sidebar .author__name {
+  display: none;
+}

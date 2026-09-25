@@ -6,20 +6,22 @@ title: "Faiq Ramzan"
 title_separator: "|"
 name: "Faiq Ramzan"
 description: >-
-  Faiq Ramzan is a Director Engineering at Ebryx in Lahore, leading teams in
+  Faiq Ramzan is Director of Engineering at Ebryx in Lahore, leading teams in
   agentic AI security, Linux kernel research, red team tooling, and
   vulnerability research. Writes on reverse engineering and offensive security.
 url: "https://faiqramzan.com"
 baseurl: ""
 repository: "faiqramzan/faiqramzan.github.io"
 teaser: "/assets/images/faiq-ramzan.jpg"
+og_image: "/assets/images/og-card.png"
+og_image_alt: "Faiq Ramzan — Director of Engineering, Ebryx"
 masthead_title: "Faiq Ramzan"
 words_per_minute: 200
 
 author:
   name: "Faiq Ramzan"
-  avatar: "/assets/images/faiq-ramzan.jpg"
-  bio: "Director Engineering at Ebryx. Agentic AI security, Linux kernel research, red team tooling, vulnerability research, reverse engineering."
+  avatar: "/assets/images/faiq-ramzan-avatar.jpg"
+  bio: "Director of Engineering at Ebryx. Agentic AI security, Linux kernel research, red team tooling, vulnerability research, reverse engineering."
   location: "Lahore, Pakistan"
   email: "faiq@faiqramzan.com"
   links:
@@ -29,9 +31,6 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/faiqramzan"
-    - label: "YouTube"
-      icon: "fab fa-fw fa-youtube"
-      url: "https://www.youtube.com/@faiqramzan5410"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/faiqnoodles"
@@ -44,9 +43,6 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/faiqramzan"
-    - label: "YouTube"
-      icon: "fab fa-fw fa-youtube"
-      url: "https://www.youtube.com/@faiqramzan5410"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/faiqnoodles"
@@ -68,6 +64,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
+      show_date: true
       comments: false
       share: true
       related: true
@@ -84,6 +81,8 @@ tag_archive:
 include:
   - _pages
 markdown: kramdown
+sass:
+  style: compressed
 highlighter: rouge
 permalink: /:categories/:title/
 paginate: 5
